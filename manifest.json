@@ -14,12 +14,10 @@
       "19": "images/hotnews19.png", 
       "38": "images/hotnews38.png" },
     // What icon do you want to display on the chrome toolbar
-    "default_title": "HotNews.ro",
+    "default_title": "HotNews.ro"
     //popup message
-    "default_popup": "http://www.hotnews.ro/"
-    // The page to popup when button clicked.
   },
-  "permissions": [
-    "http://www.hotnews.ro/"
-  ]
+  "background": {
+    "scripts": ["background.js"]
+  }
 }
